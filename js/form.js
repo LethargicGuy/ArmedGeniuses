@@ -3,13 +3,14 @@
 let saveFile = () => {
     	
     // Get the data from each element on the form.
-    const name = document.getElementById('name');
-    const messasge = document.getElementById('message');
+    const name1 = document.getElementById('name');
+    const message1 = document.getElementById('message');
+
+    console.log(name);
     
     // This variable stores all the data.
     let data = 
-            '\r Name: ' + name.value + ' \r\n ' + 
-            'Message: ' + message.value;
+            'let m5 = "' + message1.value + '";';
         
     // the \r\n is for new line or line breaks, so that each data can be written in a new line in the text file
 
