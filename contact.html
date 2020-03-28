@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<body>
+<body class="light">
 
 	<div class="container">
 		<div class="placeholder">
@@ -37,9 +37,31 @@
 			</div>
 		</div>
 
+		<button class="btn active spacing" id="myBtn" style="--green-color: var(--btn-background); color: var(--btn-color);">
+			<span class="btn__content">Theme</span>
+			<span class="btn__glitch"></span>
+			<span class="btn__label">1337</span>
+		  </button>
+
+		<div id="myModal" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content">
+			  <div class="modal-header">
+				<span class="close">&times;</span>
+				<h2>Change Theme</h2>
+			  </div>
+			  <div class="modal-body">
+				<br /><br /><a class="theme-btn" id="light" href="#">light ☀️</a> <br />
+				<br /><br /><a class="theme-btn" id="dark" href="#">dark ☾</a> <br /><br />
+			  </div>
+			  
+			</div>
+
+		</div>
+
 		<main>
 			<header class="welcome-section">
-				<h2 class="text-center section-title">Contact Me</h2>
+				<h2 class="text-center section-title" style="color: var(--header-color)">Contact Me</h2>
 				<p class="text-center">If you're happy with my ethical hacking/ pentesting guides, please let us
 					know. Or even if you feel something is missing or if something isn't correctly mentioned, we'd love
 					to hear from you. </p>
@@ -131,6 +153,8 @@
   <script>
     AOS.init();
   </script>
+  <script src="js/popup.js" type="text/javascript"></script>
+  <script src="js/theme.js" type="text/javascript"></script>
 </body>
 
 </html>
