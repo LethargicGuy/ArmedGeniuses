@@ -1,5 +1,5 @@
 # ArmedGeniuses
-An ethical hacking guide/site made using HTML and CSS.
+An ethical hacking guide/site made using HTML and CSS and JS.
 
 ### Note:
 * The feedback page has been updated to market the feedback of other people.
