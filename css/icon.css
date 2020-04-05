@@ -18,6 +18,18 @@
     content: "\f6cc"
 }
 
+.discord:before{
+    content:"\f392"
+}
+
+.linkedin:before{
+    content:"\f08c"
+}
+
+.linkedin-in:before{
+    content:"\f0e1"
+}
+
 .envelope:before {
     content: "\f0e0"
 }
