@@ -5,7 +5,7 @@ An ethical hacking guide/site made using HTML, CSS and JS.
 * The feedback page has been updated to market the feedback of other people.
 * The comments are taken from a text file in the formData directory.
 * They are parsed and shown in the comment window directly.
-* When you fill the feedback, the message is taken and stored in the local cache of the browser. It may be erased when resfreshed.
+* When you fill the feedback, the message is taken and stored in the local cache of the browser. If you have to overwrite it, then you have to submit your feedback again.
 
 ### What's new:
 * The Dark mode and Light mode toggle has now been introduced. It will be persistent and be applied to all the pages of the web page even when the page is refreshed.
