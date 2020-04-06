@@ -21,6 +21,4 @@ An ethical hacking guide/site made using HTML, CSS and JS.
 
 ### Note:
 * The feedback page has been updated to market the feedback of other people.
-* The comments are taken from a text file in the formData directory.
-* They are parsed and shown in the comment window directly.
 * When you fill the feedback, the message is taken and stored in the local cache of the browser. If you have to overwrite it, then you have to submit your feedback again.
