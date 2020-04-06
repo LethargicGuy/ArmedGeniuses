@@ -11,6 +11,7 @@ function validateMesssage() {
     if (validateMesssage2(userMessage2, 70)) {
       alert("Your feeedback has been taken, and added to the slideshow");
       doThis(userMessage2);
+      location.reload();
     }
   }
 }
