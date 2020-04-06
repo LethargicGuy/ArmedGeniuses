@@ -1,5 +1,5 @@
 
-document.getElementById("m5").innerHTML = localStorage.getItem("messageSlide");
+document.getElementById("m5").innerHTML = localStorage.getItem("message5");
 
 function validateMesssage() {
   let userName2 = document.getElementById("name12").value;
@@ -41,9 +41,9 @@ function validateMesssage2(uM, limit) {
 }
 
 function doThis(userMessage2) {
-  localStorage.setItem("messageSlide", userMessage2);
+  localStorage.setItem("message5", userMessage2);
 
   document.getElementById("m5").innerHTML = localStorage.getItem(
-    "messageSlide"
+    "message5"
   );
 }
