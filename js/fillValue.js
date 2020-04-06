@@ -11,7 +11,6 @@ if (localStorage.getItem('message1') == undefined) {
 
 if (localStorage.getItem('message5') == undefined) {
     document.getElementById('customSlide').classList.add("invisible");
-    location.reload();
 }
 
 else {
