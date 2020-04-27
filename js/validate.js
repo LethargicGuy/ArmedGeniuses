@@ -42,7 +42,17 @@ function userNameValidate(userN, lowerLimit, upperLimit) {
 
 function userEmailValidate(userE) {
   let emailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-  //
+  // ^ = match beginning of the line
+  // \w = find a word char
+  // + = match at least that char
+  // \. = match match a .(period)
+  // () = group the search
+  // .?  = optional (question mark)
+  // {x, y} = match from number x to y
+  // $ = match end of line
+  // .* = and, to use many groups
+  // | = or, to use many groups
+  
   if (userE.match(emailFormat)) {
     console.log("name is validated");
     return true;
