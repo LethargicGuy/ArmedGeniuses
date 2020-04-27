@@ -1,2 +1,0 @@
-let m5 = "apple";
-let message = "banana";
