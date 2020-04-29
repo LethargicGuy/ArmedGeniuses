@@ -1,10 +1,10 @@
 
 function validate() {
-  let userName = document.getElementById("name1").value;
-  let userEmail = document.getElementById("email1").value;
-  let userMessage = document.getElementById("message1").value;
-  let radioBtn1 = document.getElementById("yes");
-  let radioBtn2 = document.getElementById("no");
+  const userName = document.getElementById("name1").value;
+  const userEmail = document.getElementById("email1").value;
+  const userMessage = document.getElementById("message1").value;
+  const radioBtn1 = document.getElementById("yes");
+  const radioBtn2 = document.getElementById("no");
 
   if (userNameValidate(userName, 5, 15)) {
     if (userEmailValidate(userEmail)) {
@@ -20,7 +20,7 @@ function validate() {
 }
 
 function userNameValidate(userN, lowerLimit, upperLimit) {
-  let userNLength = userN.length;
+  const userNLength = userN.length;
 
   if (
     userNLength == 0 ||
@@ -64,7 +64,7 @@ function userEmailValidate(userE) {
 }
 
 function userMessageValidate(userM, limit) {
-  let userMLength = userM.length;
+  const userMLength = userM.length;
   if (userMLength == 0 || userMLength >= limit) {
     alert("Message should not be empty / length be smaller than " + limit);
     console.log("Message is not validated.");
