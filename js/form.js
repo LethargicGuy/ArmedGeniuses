@@ -10,7 +10,7 @@ function validateMesssage() {
   if (validateName(userName2, 5, 15)) {
     if (validateMesssage2(userMessage2, 70)) {
       alert("Your feeedback has been taken, and added to the slideshow");
-      doThis(userMessage2);
+      storeItem(userMessage2);
       location.reload();
     }
   }
@@ -41,7 +41,7 @@ function validateMesssage2(uM, limit) {
   return true;
 }
 
-function doThis(userMessage2) {
+function storeItem(userMessage2) {
   localStorage.setItem("message5", userMessage2);
 
   document.getElementById("m5").innerHTML = localStorage.getItem(
