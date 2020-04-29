@@ -2,9 +2,9 @@
 document.getElementById("m5").innerHTML = localStorage.getItem("message5");
 
 function validateMesssage() {
-  let userName2 = document.getElementById("name12").value;
+  const userName2 = document.getElementById("name12").value;
   //console.log(userName2);
-  let userMessage2 = document.getElementById("message12").value;
+  const userMessage2 = document.getElementById("message12").value;
   //console.log(userMessage2);
 
   if (validateName(userName2, 5, 15)) {
@@ -17,7 +17,7 @@ function validateMesssage() {
 }
 
 function validateName(uN, lL, uL) {
-  let un_len = uN.length;
+  const un_len = uN.length;
   if (un_len == 0 || un_len >= uL || un_len < lL) {
     alert(
       "Name should not be empty, length must be between " + lL + " and " + uL
@@ -30,7 +30,7 @@ function validateName(uN, lL, uL) {
 }
 
 function validateMesssage2(uM, limit) {
-  let userMLength = uM.length;
+  const userMLength = uM.length;
 
   if (userMLength == 0 || userMLength >= limit) {
     alert("Message should not be empty / length be smaller than " + limit);
